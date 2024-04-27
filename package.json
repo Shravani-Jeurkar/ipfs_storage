@@ -1,0 +1,36 @@
+{
+  "name": "pinata-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@firebase/app": "^0.10.1",
+    "@firebase/storage": "^0.12.4",
+    "@pinata/sdk": "^2.1.0",
+    "firebase": "^10.11.0",
+    "form-data": "^4.0.0",
+    "formidable": "^2.1.2",
+    "ipfs-http-client": "^60.0.1",
+    "multer": "^1.4.5-lts.1",
+    "next": "^13.5.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "toast": "^0.5.4",
+    "toastify": "^2.0.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/firebase": "^3.2.1",
+    "@types/node": "20.5.1",
+    "@types/react": "18.2.20",
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.28",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.4.5"
+  }
+}
